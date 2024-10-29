@@ -22,8 +22,8 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
   display: flex;
-  padding: 18px;
-  gap: 18px;
+  padding: 16px;
+  gap: 16px;
 }
 
 .icon {
@@ -37,27 +37,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 1 0 auto;
-}
-
-.header-close-container {
-  display: flex;
-  justify-content: space-between;
+  flex-shrink: 0;
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
+  margin-bottom: 8px;
 }
 
 .text {
-  font-size: 18px;
-}
-
-.content-container {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
+  margin-bottom: 16px;
 }
 
 .close-button {
@@ -73,12 +65,6 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
-}
-
-.message-action-buttons-container {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
 }
 
 button {
